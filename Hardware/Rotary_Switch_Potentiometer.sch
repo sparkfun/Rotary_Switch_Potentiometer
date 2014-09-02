@@ -15757,6 +15757,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <plain>
 <text x="165.1" y="7.62" size="2.54" layer="94" font="vector">Byron Jacquot</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">V01</text>
+<text x="99.06" y="66.04" size="1.778" layer="97">Resistor values can be selected for desired response.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -15923,6 +15924,18 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,93.3027,105.215,JP1,,,,,"/>
+<approved hash="113,1,119.38,133.075,R1,,,,,"/>
+<approved hash="113,1,134.62,133.075,R2,,,,,"/>
+<approved hash="113,1,151.405,127,R3,,,,,"/>
+<approved hash="113,1,151.405,111.76,R4,,,,,"/>
+<approved hash="113,1,151.405,96.52,R5,,,,,"/>
+<approved hash="113,1,151.405,81.28,R6,,,,,"/>
+<approved hash="113,1,142.24,75.2052,R7,,,,,"/>
+<approved hash="113,1,127,75.2052,R8,,,,,"/>
+<approved hash="113,1,111.76,75.2052,R9,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
