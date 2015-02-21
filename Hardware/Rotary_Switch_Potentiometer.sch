@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15751,13 +15751,15 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W-VERT-KIT"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W-VERT-KIT"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W-VERT-KIT"/>
+<part name="STANDOFF5" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
+<part name="STANDOFF6" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="165.1" y="7.62" size="2.54" layer="94" font="vector">Byron Jacquot</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">V01</text>
-<text x="99.06" y="66.04" size="1.778" layer="97">Resistor values can be selected for desired response.</text>
+<text x="99.06" y="66.04" size="1.778" layer="97">Resistor values to be selected for desired response.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -15777,6 +15779,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="R7" gate="G$1" x="142.24" y="76.2" rot="R180"/>
 <instance part="R8" gate="G$1" x="127" y="76.2" rot="R180"/>
 <instance part="R9" gate="G$1" x="111.76" y="76.2" rot="R180"/>
+<instance part="STANDOFF5" gate="G$1" x="226.06" y="12.7"/>
+<instance part="STANDOFF6" gate="G$1" x="226.06" y="7.62"/>
 </instances>
 <busses>
 </busses>
