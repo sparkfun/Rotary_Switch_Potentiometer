@@ -1,35 +1,38 @@
-Part Name - IMA Part-123 Not a Part345 Breakout
+Rotary Switch Potentiometer
 ========================================
 
-[![Part Name](URL for picture of part)
-*Part Name (SKU)*](URL for product on Sparkfun.com)
+Breakout board for 10-position rotary switch that allows you to add resistors to configure it as a custom stepped potentiometer.
 
-Basic description of the part [The datasheet can be found here.](http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Sensors/IMU/PS-MPU-9150A.pdf)
+[![Rotary Switch Potentiometer](https://cdn.sparkfun.com/assets/learn_tutorials/3/4/1/product-shot.jpg)
+*Rotary Switch Potentiometer (BOB-13099)*](https://www.sparkfun.com/products/13099)
+
+The Rotary Switch Potentiometer is a board that allows you to add some resistors to our one of our 10-position rotary switches, turning it into a potentiometer with ten discrete steps.  [The hookup guide can be found here.](https://learn.sparkfun.com/tutorials/rotary-switch-potentiometer-hookup-guide)
 
 More information can be found on the Wiki for this repo. 
 
-This part was created in Eagle vXXX, this firmware was created in Arduino vBlahBlahBlah, etc. 
-
-
+This part was created in Eagle v7.1.0, and the demonstration Arduino sketch was written in  Arduino v1.6.1. 
 
 
 Repository Contents
 -------------------
-
-* **/Enclosure** - 3D model of an enclosure designed for this particular part
-* **/Firmware** - Any firmware that the part ships with, 
-* **/Fritzing** - Fritzing Example wiring images
+* **/Firmware** - An Arduino sketch to interface with the board. 
 * **/Hardware** - All Eagle design files (.brd, .sch, .STL)
-* **/Libraries** - All Arduino libraries and board examples
-* **/Production** - Test bed files and production panel files
-* **/Software** - Any desktop based software used to work with this project.
-* **[Wiki](URL for GitHub Wiki) - Wiki with examples or helpful information for product
+* **/Theory** - Spreadsheet to calculate resistor values
 
 Product Versions
 ----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU] (retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
+* [BOB-13099](https://www.sparkfun.com/products/13099)- Breakout board itself.
+
+Related Products
+----------------
+
+To make the best use of BOB-13099, you'll need some additional components.
+
+* A [10 position Rotary Switch](https://www.sparkfun.com/products/13253).
+* Some [resistors](https://www.sparkfun.com/products/10969).
+* A [control](https://www.sparkfun.com/products/9998) or [chickenhead](https://www.sparkfun.com/products/9998) knob.
+* [Straight](https://www.sparkfun.com/products/116) or [right-angle](https://www.sparkfun.com/products/553) snappable headers.
+
 
 Version History
 ---------------
@@ -42,6 +45,3 @@ The hardware is released under [Creative Commons ShareAlike 4.0 International](h
 The code is beerware; if you see me (or any other SparkFun employee) at the local, and you've found our code helpful, please buy us a round!
 
 Distributed as-is; no warranty is given.
-
-->Any collaboration credit should appear here.<-
-
